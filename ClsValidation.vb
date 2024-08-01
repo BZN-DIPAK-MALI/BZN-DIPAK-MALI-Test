@@ -250,7 +250,7 @@ Public Class ClsValidation
             ErrorMessage = ""
 
 
-            DtTemp = ObjBaseClass.ReadExcelIntoDataTable(gstrInputFolder & "\" & gstrInputFile, 0)
+            DtTemp = ObjBaseClass.GetDataTable_ExcelSQL(gstrInputFolder & "\" & gstrInputFile, 1, "")
 
 
             Dim dtch As New DataTable
